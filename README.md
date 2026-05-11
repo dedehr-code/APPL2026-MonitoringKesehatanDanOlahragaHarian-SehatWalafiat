@@ -1,2 +1,2 @@
-# APPL2026-MonitoringKesehatanDanOlahragaHarian-SehatWalafiat
+# APPL2026-MonitoringKesehatan-OlahragaHarian-SehatWalafiat
 Project Mata Kuliah Analisis dan Perancangan Perangkat Lunak
