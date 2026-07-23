@@ -22,21 +22,26 @@ Sistem beroperasi secara otomatis dengan menarik data biometrik dari *Smartwatch
 
 ---
 
-## 📂 Struktur Repositori (Daftar Dokumen)
-Repositori ini menyimpan seluruh artefak rekayasa perangkat lunak dari Tahap 1 hingga Tahap 6:
+## 📂 Struktur Repositori
+Repositori ini menyimpan seluruh artefak rekayasa perangkat lunak dari awal perancangan hingga laporan akhir proyek. Direktori dibagi menjadi tiga bagian utama:
 
-*   **Tahap 1:** Analisis Proses Bisnis (BPMN *As-Is* & *To-Be*).
-*   **Tahap 2:** Spesifikasi Kebutuhan Sistem (SRS Fungsional, Non-Fungsional, Hardware & Software).
-*   **Tahap 3:** Pemodelan Skenario *Use Case* (Normal Flow & Exception Flow).
-*   **Tahap 4:** Visualisasi *Use Case Diagram Global*.
-*   **Tahap 5:** Spesifikasi *Fully Dressed Use Case* & Aturan Bisnis (*Business Rules*).
-*   **Tahap 6:** Visualisasi *Activity Diagram* (Model *Swimlane*).
+* **`01_Laporan/`**: Menyimpan dokumen tertulis. Terdapat folder **Progress** (berisi file tugas per tahapan/bab) dan folder **Complete** (berisi Laporan Akhir Proyek versi penuh, Slide Presentasi, dan Video Presentasi).
+* **`02_Diagram/`**: Menyimpan file gambar (`.png`/`.jpg`) dan file *source* mentah dari seluruh arsitektur sistem, meliputi: *Process Diagram (BPMN)*, *Use Case Diagram*, *Activity Diagram*, *Class Diagram*, dan *Sequence Diagram*.
+* **`03_UI Design/`**: Menyimpan *High-Fidelity* desain antarmuka pengguna (UI) aplikasi yang diurutkan berdasarkan skenario *user flow*.
 
-*(Catatan: Silakan klik file berformat `.docx` atau `.png` di daftar file di atas untuk membaca dokumen secara detail).*
+---
+
+## 🚀 Cakupan Pengembangan Sistem
+Sesuai dengan Laporan Akhir, proyek ini telah melewati fase perancangan dan analisis berikut:
+1. **Analisis Proses Bisnis & Kebutuhan:** Pemodelan BPMN (*As-Is* & *To-Be*) dan Spesifikasi Kebutuhan Perangkat Lunak (SRS).
+2. **Pemodelan UML:** Penyusunan Skenario Use Case, UCD, Activity Diagram (*Swimlane*), Class Diagram, dan Sequence Diagram.
+3. **Perancangan Antarmuka (UI/UX):** Pembuatan purwarupa *High-Fidelity* yang ramah lansia (ikon besar, dukungan *Voice Command*).
+4. **Software Costing & Analisis Kualitas:** Perhitungan estimasi biaya pengembangan menggunakan metode *Use Case Point (UCP)* serta pengujian rancangan menggunakan *Usability Testing* pada target pengguna.
 
 ---
 
 ## 🛠️ Tools yang Digunakan
-*   **Pemodelan UML & BPMN:** Draw.io / Lucidchart
-*   **Manajemen Tugas & Pelaporan:** Google Workspace / GitHub
-*   **Perancangan UI/UX (Tahap Selanjutnya):** Figma
+* **Pemodelan UML & BPMN:** Draw.io / Astah
+* **Perancangan UI/UX & Prototyping:** Figma
+* **Manajemen Tugas & Version Control:** Google Workspace / GitHub
+* **Penyusunan Laporan:** Microsoft Word / Google Docs
